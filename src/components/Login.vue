@@ -4,11 +4,11 @@
 
 <script setup type="ts"></script>
 <style scoped>
-  #home {
-    width: 100%;
-    min-height: 100vh;
-    background: url("~@/images/home/h_bg.png") center center no-repeat;
-    background-size: 100% 100%;
-    
-  }
+#home {
+  background: url('@/assets/mario.jpg') center center no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+}
 </style>
